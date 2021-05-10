@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    background: #d5d5d5;
+}
+
+.socialmedia {
+    
+    float: right;
+    padding-right: 10px;
+    position: relative;
+}
+
+div#cabecalho {
+    background-color: #090B2B;
+}
+
+h2#titulo {
+    padding-left: 20%;
+    font-family: arial;
+    color: #01BACA;
+    font-size: 80px;
+}
+
+h5#subtitulo {
+    padding-left: 20%;
+    padding-bottom: 10px;
+    float: top;
+    font-family: Arial;
+    color: #01BACA;
+    font-size: 35px;
+}
+img#imgcenter {
+    width: 100%;
+    height: 500px;
+    margin: 0;
+}
+
+div#rodape {
+    margin: 0%;
+    padding: 0;
+    background-color: #090B2B;
+    width: 100%;
+    height: 350px;
+}
+
+button#blue {
+    font-family: arial;
+    background-color: #039EF4;
+    font-size: 45px;
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px 0px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+
+}
+
+button#blue:hover {
+    color: #ffffff;
+    box-shadow: 0 0 5px #039EF4,
+                0 0 25px #039EF4,
+                0 0 50px #039EF4,
+                0 0 200px #039EF4;
+}
+
+button#red {
+   font-family: arial;
+   background-color: #F05F57;
+   font-size: 45px;
+   position: relative;
+   display: inline-block;
+   padding: 25px 30px;
+   margin: 40px 0px;
+   text-transform: uppercase;
+   transition: 0.5s;
+   -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+button#red:hover {
+    color: #ffffff;
+    box-shadow: 0 0 5px #F05F57,
+                0 0 25px #F05F57,
+                0 0 50px #F05F57,
+                0 0 200px #F05F57;
+}
+
+button#green{
+    font-family: consolas;
+    background-color: #81FBB8;
+    font-size: 45px;
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px 0px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+button#green:hover{
+    color: #ffffff;
+    box-shadow: 0 0 5px #81FBB8,
+                0 0 25px #81FBB8,
+                0 0 50px #81FBB8,
+                0 0 200px #81FBB8;
+}
+
+button#yellow {
+    font-family: consolas;
+    background-color: #FDEB71;
+    font-size: 45px;
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px 0px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+button#yellow:hover {
+    color: #ffffff;
+    box-shadow: 0 0 5px #FDEB71,
+                0 0 25px #FDEB71,
+                0 0 50px #FDEB71,
+                0 0 200px #FDEB71;
+}
