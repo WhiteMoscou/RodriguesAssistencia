@@ -1,3 +1,6 @@
+/*************Estilo geral das páginas***************/
+
+
 body {
     margin: 0;
     background: #d5d5d5;
@@ -82,6 +85,7 @@ div#rodape {
 button {
     text-decoration: none;
     margin: 25px 30px;
+    border-radius: 20px;
 }
 
 button#blue {
@@ -177,4 +181,44 @@ p {
     text-align: center;
     color: #ffffff;
     -webkit-box-reflect: below 1.5px linear-gradient(transparent, #000000);
+}
+
+/********** Estilo de cadastro ***********/
+
+form {
+    justify-content: center;
+}
+
+.camp {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #187379;
+}
+
+.botao {
+    
+}
+
+textarea {
+    width: 45%;
+    height: 200px;
+}
+
+hr {
+    width: 45%;
+    height: 2px;
+}
+
+label {
+    margin: 5px;
+}
+
+input {
+    border-radius: 20px;
 }
