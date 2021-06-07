@@ -20,15 +20,14 @@
               <h5 id="subtitulo"> - Especialista em Lava e Seca - </h5>
            </hgroup>
            
-        <a id="socialmedia" href=""><img class="socialmedia" src="midia/facebookicon.png"></a>
-        <a id="socialmedia" href=""><img class="socialmedia" src="midia/whatsappicon.png"></a>
-        <a id="socialmedia" href=""><img class="socialmedia" src="midia/instagramicon.png"></a>
+        <a id="socialmedia" href="https://www.facebook.com/RPassistenciatecnicaespecializada" target="_blank"><img class="socialmedia" src="midia/facebookicon.png"></a>
+        <a id="socialmedia" href="" target="_blank"><img class="socialmedia" src="midia/whatsappicon.png"></a>
+        <a id="socialmedia" href="https://www.instagram.com/rp4ssistencia/" target="_blank"><img class="socialmedia" src="midia/instagramicon.png"></a>
     </div>
     </header>
 
-    <form>
-        <h1><strong>Nos conte mais sobre o problema</strong></h1>
-        <h3><strong>Nós entratemos em contato assim que possível</strong></h3>
+    <form action="" method="POST">
+        <h1><strong>Formulário de Orçamento</strong></h1>
         <fieldset>
 
             <div>
@@ -37,23 +36,23 @@
 
             <div class="camp">
                 <label for="nome">
-                    <strong>Nome</strong>
+                    <strong>Nome:</strong>
                 </label>
-                <input type="text" name="nome" id="name" required> 
+                <input type="text" name="nome" id="name" placeholder="João da Silva" required> 
 
             </div>
             <div class="camp">
                 <label for="email">
-                    <strong>Email</strong>
+                    <strong>Email:</strong>
                 </label>
-                <input type="text" name="email" id="email" required>
+                <input type="text" name="email" id="email" placeholder="joaosilva@email.com" required>
 
             </div>
             <div class="camp">
                 <label for="tel">
-                    <strong>Telefone ou Celular</strong>
+                    <strong>Telefone ou Celular:</strong>
                 </label>
-                <input type="tel" name="numero" id="number" required> 
+                <input type="tel" name="numero" id="number" placeholder="(DDD)00000-00000" required> 
 
                 <label>
                     <strong>WhatsApp?</strong>
@@ -64,7 +63,7 @@
 
             
                  <h2>Informações para calculo de orçamento</h2>
-                 <hr>
+                 
 
                  <div class="camp">
             
@@ -79,13 +78,15 @@
                     <strong>Máquina comum</strong>
                 </label>
                 <input type="radio" name="tipo" id="type">
+                <hr>
 
                 </div>
+
 
             <div class="camp">
 
                  <label>
-                     <strong>Marca</strong>
+                     <strong>Marca:</strong>
                  </label>
                  <select required>
                      <option selected disabled value>Selecione</option>
@@ -102,7 +103,7 @@
                  </select>
 
                  <label>
-                     <strong>Modelo (opcional)</strong>
+                     <strong>Modelo (opcional):</strong>
                  </label>
                  <input type="text" name="modelo" id="model">
 
@@ -111,7 +112,7 @@
                 <div class="camp">
 
                  <label>
-                     <strong>Tempo de Uso</strong>
+                     <strong>Tempo de Uso:</strong>
                  </label>
 
                  <select required>
@@ -125,20 +126,20 @@
 
             </div>
 
+            <!--Modificar o titulo -->
             <div class="camp">
-            <label>
-                <strong>Descreva melhor o problema</strong>
+            <label id="caixadetexto">
+                <strong>Mais detalhes do problema</strong>
             </label>
-            <textarea></textarea>
+            <textarea placeholder="Se quiser pode dar mais detalhes do seu problema, como barulhos ou ruidos que a máquina faz..." required maxlength="450"></textarea>
             </div>
 
         </fieldset>
-        <div>
+        <div class="botao">
 
-        <button class="botao" type="submit" onsubmit>Concluir</button>
-        <button class="botao" type="reset" onreset>Limpar</button>
+        <button class="botao" type="submit" onsubmit><strong>Concluir</strong></button>
 
-    </div>
+        </div>
     </form>
 
     <footer>
@@ -150,15 +151,7 @@
         <p>Desenvolvedor - igoramarals96@gmail.com - WhiteMoscou</p>
     </div>
     </footer>
-    <script>
-        var reset = document.querySelector(reset);
-
-        if (reset == true){
-            window.Option("Tem certeza que quer apagar tudo?")
-        } else {
-
-        }
-    </script>
+    <script src="functions.js" defer></script>
 </body>
 
 </html>
