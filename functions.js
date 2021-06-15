@@ -1,4 +1,4 @@
-let submit = true;
+var submit = true;
 
 if (submit == true) {
     window.confirm("Todas as informações estão corretas?");
