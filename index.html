@@ -33,6 +33,125 @@
             <img id="imgcenter" src="midia/maquina.jpg">
     </section>
 
+    <form action="" method="POST">
+        <h1><strong>Formulário de Orçamento</strong></h1>
+        <fieldset>
+
+            <div>
+
+                <h2>Dados do cliente</h2>
+
+            <div class="camp">
+                <label for="nome">
+                    <strong>Nome:</strong>
+                </label>
+                <input type="text" name="nome" id="name" placeholder="João da Silva" required> 
+
+            </div>
+            <div class="camp">
+                <label for="email">
+                    <strong>Email:</strong>
+                </label>
+                <input type="text" name="email" id="email" placeholder="joaosilva@email.com" required>
+
+            </div>
+            <div class="camp">
+                <label for="tel">
+                    <strong>Telefone ou Celular:</strong>
+                </label>
+                <input type="tel" name="numero" id="number" placeholder="(DDD)00000-00000" required> 
+
+                <label>
+                    <strong>WhatsApp?</strong>
+                </label>
+                <input type="radio" name="whatsapp" id="type">
+            </div>
+
+
+            
+                 <h2>Informações para calculo de orçamento</h2>
+                 
+
+                 <div class="camp">
+            
+                 <label>
+                    <strong>Tipo de máquina: </strong>
+                </label>
+                <label>
+                    <strong>Lava e Seca</strong>
+                   </label>
+                <input type="radio" name="tipo" id="type">
+                <label>
+                    <strong>Comum</strong>
+                </label>
+                <input type="radio" name="tipo" id="type">
+                <hr>
+
+                </div>
+
+
+            <div class="camp">
+
+                 <label>
+                     <strong>Marca:</strong>
+                 </label>
+                 <select required>
+                     <option selected disabled value>Selecione</option>
+                     <option>Arno</option>
+                     <option>Bosch</option>
+                     <option>Brastemp</option>
+                     <option>Colomarq</option>
+                     <option>Consul</option>
+                     <option>Eletrolux</option>
+                     <option>Ge</option>
+                     <option>Lg</option>
+                     <option>Outro</option>
+                     <option>Não sei identificar</option>
+                 </select>
+
+                 <br>
+                 <br>
+
+                 <label>
+                     <strong>Modelo (opcional):</strong>
+                 </label>
+                 <input type="text" name="modelo" id="model">
+
+                </div>
+
+                <div class="camp">
+
+                 <label>
+                     <strong>Tempo de Uso:</strong>
+                 </label>
+
+                 <select required>
+                     <option selected disabled value>Selecione</option>
+                     <option>1 ano ou menos</option>
+                     <option>de 2 a 3 anos</option>
+                     <option>de 3 a 5 anos</option>
+                     <option>de 5 a 10 anos</option>
+                     <option>10 anos ou +</option>
+                 </select>
+
+            </div>
+
+            <!--Modificar o titulo -->
+            <div class="camp">
+            <label id="caixadetexto">
+                <strong>Mais detalhes do problema</strong>
+            </label>
+            <textarea placeholder="Se quiser pode dar mais detalhes do seu problema, como barulhos ou ruidos que a máquina faz..." required maxlength="450"></textarea>
+            </div>
+
+        </fieldset>
+        <div class="botao">
+
+        <button class="botao" type="submit" onsubmit><strong>Concluir</strong></button>
+
+        </div>
+    </form>
+
     
     <div id="rodape">
         <button id="blue"><a href="index.html"><b>INICIO</b></a></button>

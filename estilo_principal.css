@@ -3,6 +3,7 @@
 
 body {
     margin: 0;
+    padding: 0;
     background: #d5d5d5;
 }
 
@@ -177,7 +178,7 @@ button#yellow:hover {
 
 /********** Estilo de cadastro ***********/
 
-/**form {
+form {
     justify-content: center;
 }
 
